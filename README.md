@@ -40,13 +40,7 @@ The MAX30105 sensor is the key component responsible for health measurements in 
 ## 3D Design
 The 3D design of the watch was created using SolidEdge software, with the final files exported in STL format for 3D printing. The design includes all necessary parts for the assembly of the device, such as the main casing, covers, and supports for the OLED screen and MAX30105 sensor.
 
-<embed src="/pdf/box.pdf" />
-
-### 3D STL
-
-<object data="/stl/box.stl" width="700px" height="700px">
-   <embed src="/stl/box.stl" />
-</object>
+<img src="/pdf/box.png" width="50%">
 
 ## Mobile Application
 
