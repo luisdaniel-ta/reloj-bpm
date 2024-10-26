@@ -16,7 +16,7 @@ Weather information is retrieved through the integration of a REST API provided 
 ### LILYGO Display (ESP32 + SSD1306 OLED)
 For this project, the LILYGO_Display development board is used, combining the ESP32 microcontroller with an OLED screen based on the SSD1306 controller. This board offers several terminals that facilitate the connection of different peripherals, such as the MAX30105 sensor and other external modules. It also includes a dedicated terminal for connecting a battery, enabling the device’s portability.
 
-![](/docs/LILYGO_DISPLAY.png)
+<img src="/docs/LILYGO_DISPLAY.png" width="50%">
 
 ### Features of LILYGO_Display:
 
@@ -28,7 +28,8 @@ For this project, the LILYGO_Display development board is used, combining the ES
 ### MAX30105 Sensor
 The MAX30105 sensor is the key component responsible for health measurements in the device. It uses optical technology to measure the user’s heart rate and blood oxygen levels. Communication between the sensor and the ESP32 microcontroller is facilitated through an I2C bus, making its integration seamless.
 
-![](/docs/M30172.png)
+<img src="/docs/M30172.png" width="50%">
+
 
 ### Features of the MAX30105 Sensor:
 
@@ -39,16 +40,13 @@ The MAX30105 sensor is the key component responsible for health measurements in 
 ## 3D Design
 The 3D design of the watch was created using SolidEdge software, with the final files exported in STL format for 3D printing. The design includes all necessary parts for the assembly of the device, such as the main casing, covers, and supports for the OLED screen and MAX30105 sensor.
 
-<embed src="./pdf/box.pdf" />
+<embed src="/pdf/box.pdf" />
 
 ### 3D STL
 
-<object data="./stl/box.stl" width="700px" height="700px">
-   <embed src="./stl/box.stl" />
+<object data="/stl/box.stl" width="700px" height="700px">
+   <embed src="/stl/box.stl" />
 </object>
-
-
-
 
 ## Mobile Application
 
@@ -57,4 +55,4 @@ A simple mobile application has been developed, which connects to the smartwatch
 - Monitor heart rate and oxygen levels in real-time.
 - Customize certain functions of the watch.
 
-![](/app/03.png)
+<img src="/app/03.png" width="50%">
