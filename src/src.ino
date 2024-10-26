@@ -36,7 +36,7 @@ const char *nombre = "red_datos";
 const char *clave = "1002acosta";
 
 // Clima
-String APIKEY = "2e7382c02c98cb3c66d7ab8121ef6020";
+String APIKEY = "";
 String ciudad = "3687238"; // Cartagena - 3687238 // Bogota - 3688689
 bool id = false;
 char servidor[] = "api.openweathermap.org";
