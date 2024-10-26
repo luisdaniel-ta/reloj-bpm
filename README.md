@@ -43,7 +43,12 @@ The 3D design of the watch was created using SolidEdge software, with the final 
 
 ### 3D STL
 
-<embed src="./stl/box.stl" />
+<object data="./stl/box.stl" width="700px" height="700px">
+   <embed src="./stl/box.stl" />
+</object>
+
+
+
 
 ## Mobile Application
 
@@ -51,3 +56,5 @@ A simple mobile application has been developed, which connects to the smartwatch
 
 - Monitor heart rate and oxygen levels in real-time.
 - Customize certain functions of the watch.
+
+![](/app/03.png)
